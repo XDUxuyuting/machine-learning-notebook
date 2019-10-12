@@ -1,0 +1,23 @@
+# error and accuracy
+error:training error(empirical error) and generalization error
+
+# the evalution method
+hold-out:
+(data set)D = S||T,S&T=MNULL
+cross validation:
+devide D data set into k sub dataset,called k fold cross validation
+ LOO(leave one out):k=m
+ bootstrapping:
+ use the bootstrap sampling
+ select a sample randomly from D to D' 
+ parameter tuning:
+ validation set: data set of evaluting the test  
+ 
+# performance measure:
+ compare the predicted answer to the truth ground 
+ usally use mean squared error(MSE)
+ error rate and accuracy:
+ precision and recall:
+  break even point(BEP):p(precision) = p(recall)
+  F1 : the harmonic mean of the P,R,which care about the minest
+ ROC and AUC
